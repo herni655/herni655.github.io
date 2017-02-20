@@ -1,0 +1,36 @@
+body {
+  background-color: gray;
+}
+
+#wrapper {
+  width: 500px;
+  line-height: 1.4em;
+  background: gray;
+  padding: 10px;
+  text-align: left;
+  font-family: helvetica;
+  
+}
+
+#wrapper img {
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  word-spacing: -1.2px;
+}
+
+h1 {
+  font-size: 85px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+#para2 {
+  position: absolute;
+  left: 600px; 
+  top: 135px;
+  }
+
+ 
