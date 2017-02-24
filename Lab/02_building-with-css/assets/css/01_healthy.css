@@ -1,0 +1,27 @@
+body {
+	 background-repeat: no-repeat;
+     background-position: top center;
+     background-attachment: fixed;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+}
+
+.healthy-circle {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	background-color: #605a5a;
+	width:320px;
+	height: 320px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 320px;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: Lucida Grande;
+	color: #d0cbcb;
+}
