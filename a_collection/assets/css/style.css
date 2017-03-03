@@ -10,20 +10,35 @@ body {
 h1 {
 	font-family: Lucida Grande;
 	font-weight: bold;
-	font-size: 55px;
+	font-size: 75px;
 	text-align: center;
+	color: white;
+}
+
+#healthy {
+	width:85%;
+	border-radius: 50%;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	margin-top: 6%;
+	
+	
 }
 
 .circle_1 {
-	background-color: #605a5a;
-	width:320px;
-	height: 320px;
+	background-color: #5a4138;
+	width:350px;
+	height: 350px;
 	border-radius: 50%;
-	position: relative;
-	top:90px;
-	left:38px;
+	/*position: relative;*/
+	/*top:90px;
+	left:38px;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
 	text-align: center;
-	line-height: 320px;
+	line-height: 350px;
 	font-weight: bold;
 	font-size: 35px;
 	font-family: Lucida Grande;
@@ -32,15 +47,18 @@ h1 {
 }
 
 .circle_2 {
-	background-color: #605a5a;
-	width:320px;
-	height: 320px;
+	background-color: #66463b;
+	width:350px;
+	height: 350px;
 	border-radius: 50%;
-	position: relative;
-	top:-230px;
-	left:495px;
+	/*position: relative;
+	top:111px;
+	left:145px;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
 	text-align: center;
-	line-height: 320px;
+	line-height: 350px;
 	font-weight: bold;
 	font-size: 35px;
 	font-family: Lucida Grande;
@@ -48,15 +66,18 @@ h1 {
 }
 
 .circle_3 {
-	background-color: #605a5a;
-	width:320px;
-	height: 320px;
+	background-color: #795041;
+	width:350px;
+	height: 350px;
 	border-radius: 50%;
-	position: relative;
-	top:-550px;
-	left:920px;
+	/*position: relative;
+	top:100px;
+	left:240px;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
 	text-align: center;
-	line-height: 320px;
+	line-height: 350px;
 	font-weight: bold;
 	font-size: 35px;
 	font-family: Lucida Grande;
@@ -65,9 +86,9 @@ h1 {
 
 a {
 	text-align: center;
-	line-height: 320px;
+	line-height: 250px;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: Lucida Grande;
 	color: #d0cbcb;
 }
