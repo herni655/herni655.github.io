@@ -1,3 +1,54 @@
+#middle {
+	display: block;
+	margin:auto;
+	padding: 0% 15% 0% 15%;
+	font-family: "Bookmania Regular";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Bookmania Regular";
+	font-weight: bold;
+	font-style: normal;
+}
+h2 {
+	text-align: center;
+	margin: -20px 0px 35px 0px;
+	font-family: "Bookmania Regular";
+	font-weight: normal;
+	font-style: italic;
+}
+
+h5 {
+	text-align: center;
+}
+
 img {
-	width: 500px;
+	width: 280px;
+    float: left;
+    padding-right: 10px;
+}
+.para1{
+	margin-top: -19px;
+}
+.para2 {
+	float: left;
+	vertical-align: top;
+}
+.para3 {
+	float: left;
+	vertical-align: top;
+}
+}
+
+p {
+	margin: auto;
+	display: inline-block;
+	width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
 }
