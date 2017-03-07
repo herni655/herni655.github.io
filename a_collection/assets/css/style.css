@@ -108,14 +108,19 @@ nav a:hover {
 	color: #d0cbcb;
 }
 
+
+
 a {
 	text-align: center;
-	
+	text-decoration: none;
 	/*font-weight: bold;
 	font-size: 30px;*/
 	font-family: Lucida Grande;
 	color: #d0cbcb;
 	
 }
-
+a:hover {
+	color: brown;
+	padding: 10px;
+}
 

@@ -26,10 +26,19 @@ p {
 	
 	/*background-color: #453122;*/
 }
+
 a {
 	color: white;
+	text-decoration: none;
 }
+
+a:hover {
+	color: brown;
+	padding: 10px;
+}
+
 .Previous {
+	text-decoration: none;
 	background-color: #5a4138;
 	width:100px;
 	height:100px;
