@@ -13,7 +13,31 @@ h1 {
 	font-size: 75px;
 	text-align: center;
 	color: white;
+	
 }
+.nav-tabs {
+	display: inline-block;
+}
+nav {
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	width: 400px;
+	padding: 10px;
+
+} 
+
+nav a {
+	background-color: #453122;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: gray;
+	padding: 10px;
+}
+
 
 #healthy {
 	width:85%;
@@ -86,11 +110,12 @@ h1 {
 
 a {
 	text-align: center;
-	line-height: 250px;
-	font-weight: bold;
-	font-size: 30px;
+	
+	/*font-weight: bold;
+	font-size: 30px;*/
 	font-family: Lucida Grande;
 	color: #d0cbcb;
+	
 }
 
 

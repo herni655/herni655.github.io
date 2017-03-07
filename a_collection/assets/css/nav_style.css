@@ -1,0 +1,44 @@
+h1 {
+	font-family: lucida grande;
+	text-align: center;
+	color: white;
+	margin-top: 10%;
+	font-size: 60px;
+}
+
+#para_content {
+	margin:auto;
+	color: #d0cbcb;
+}
+
+
+
+
+p {
+	padding: 0% 10% 5% 10%;
+	
+	font-family: lucida grande;
+	text-align: center;
+	
+	
+	font-size: 30px;
+	/*border-radius: 50%*/;
+	
+	/*background-color: #453122;*/
+}
+a {
+	color: white;
+}
+.Previous {
+	background-color: #5a4138;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Lucida Grande;
+	text-transform: uppercase;
+	margin-left: 90%;
+}

@@ -8,8 +8,15 @@ body {
 }
 
 a {
+	
 	color: white;
 	font-family: Lucida Grande;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	
 }
 
 .Home {

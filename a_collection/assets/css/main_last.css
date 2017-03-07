@@ -8,9 +8,16 @@ body {
 }
 
 a {
+
 	color: white;
 	text-align: center;
 	font-family: Lucida Grande;
+	text-decoration: none;
+}
+
+a:hover {
+	color: beige;
+	padding: 10px;
 }
 
 .Home {
@@ -30,6 +37,11 @@ h1 {
 	text-align: center;
 	font-family: lucida Grande;
 	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .content {
@@ -48,6 +60,7 @@ img {
     border-radius: 50%;
    display: block;
     margin: auto;
+    background-color: white;
 }
 
 .Previous {

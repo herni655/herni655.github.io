@@ -7,10 +7,18 @@ body {
      background-position: center;
 }
 
+
 a {
+	
 	color: white;
 	text-align: center;
 	font-family: Lucida Grande;
+	text-decoration: none;
+}
+
+a:hover {
+	color: salmon;
+	
 }
 
 .Home {
@@ -25,14 +33,20 @@ a {
 	font-family: Lucida Grande;
 	text-transform: uppercase;
 }
+
 #middle {
 	margin: auto;
 	text-align: center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 
-
 img {
+
 	background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;

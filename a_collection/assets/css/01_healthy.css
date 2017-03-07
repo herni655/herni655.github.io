@@ -10,6 +10,11 @@ body {
 a {
 	color: white;
 	font-family: lucida Grande;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgreen;
 }
 
 .Home {
