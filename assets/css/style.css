@@ -1,0 +1,66 @@
+#middle {
+	padding: 13%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
+}
+section {
+	border-style: solid;
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+}
+/*display of content*/
+.projects {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.lab {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	
+}
+
+.studio {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	
+}
+
+/*the show and hide of content*/
+.show {
+	display: none;
+}
+
+.projects:hover .show {
+	display: block;
+}
+
+.projects:hover .ok {
+	display: none;
+}
+
+.lab:hover .show {
+	display: block;
+}
+
+.lab:hover .ok {
+	display: none;
+}
+
+.studio:hover .show {
+	display: block;
+}
+
+.studio:hover .ok {
+	display: none;
+}
