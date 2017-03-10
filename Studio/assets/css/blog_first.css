@@ -20,6 +20,21 @@ h2 {
 .para2 {
 	padding: 0% 5% 0% 5%;
 }
+
+.post1 {
+	padding: 0% 5% 0% 5%;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+a:hover {
+ padding: .5%;
+ background-color: gray;
+}
+
 p {
 	word-spacing: -1.2px;
 	background-color: white;
