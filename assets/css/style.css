@@ -1,3 +1,11 @@
+body {
+	 background-repeat: no-repeat;
+     background-position: top center;
+     background-attachment: fixed;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+}
 #middle {
 	padding: 13%;
 	text-align: center;
@@ -6,14 +14,26 @@
 }
 section {
 	border-style: solid;
+	border-color: #f1f2ed;
 	padding: 50px;
+	background-color: #b4c4ca;
 }
 
 h1 {
+	color: #304922;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
 	font-weight: bold;
+}
+
+h2 {
+	color: #304922;
+}
+
+a {
+	color: #b16639;
+	text-decoration: none;
 }
 /*display of content*/
 .projects {
@@ -45,7 +65,7 @@ h1 {
 	display: block;
 }
 
-.projects:hover .ok {
+.projects:hover .stay {
 	display: none;
 }
 
@@ -53,7 +73,7 @@ h1 {
 	display: block;
 }
 
-.lab:hover .ok {
+.lab:hover .stay {
 	display: none;
 }
 
@@ -61,6 +81,6 @@ h1 {
 	display: block;
 }
 
-.studio:hover .ok {
+.studio:hover .stay {
 	display: none;
 }
