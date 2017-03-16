@@ -114,11 +114,6 @@ body {
 
 /*phone*/
 @media(min-width:320px) {
-	body {
-	background-size:calc(100% - 5px);
-	background-repeat: no-repeat;
-	background-size: cover;
-	}
 	.halfarm {
 	width: 150px;
 	background-color: orange;
@@ -163,11 +158,6 @@ body {
 }
 
 @media(min-width:481px) and (max-width:991px) {
-	body {
-	background-size:calc(100% - 0px);
-	background-repeat:repeat;
-	background-size: cover;
-	}
 	.halfarm {
 	background-color: purple;
 	width: 150px;
@@ -210,11 +200,6 @@ body {
 }
 
 @media (min-width: 992px) {
-	body {
-	background-size:calc(100% - 0px);
-	background-repeat: no-repeat;
-	background-size: cover;
-	}
 	.halfarm {
 	background-color: gold;
 	width: 150px;
