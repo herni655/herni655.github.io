@@ -12,5 +12,250 @@ html, body {
 }
 
 body {
-	background-color: lightblue;
+	background-color: black;
 }
+#torso {
+	padding: calc(15% - 5px);
+}
+
+.head {
+	background-color: orange;
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+
+	/*display: block;*/
+}
+
+.body {
+	background-color: brown;
+	width: 125px;
+	height: 250px;
+	border-radius: 35% 35% 0% 0%;
+}
+
+.halfarm {
+	background-color: orange;
+/*	width: 150px;
+	height: 50px;
+	border-radius: 45%;
+	position: relative;
+	top: -200px;
+	transform: rotate(45deg);*/
+}
+
+.fronthalf {
+	background-color: orange;
+	/*width: 125px;
+	height: 45px;
+	border-radius: 45%;
+	position: relative;
+	top: -235px;
+	left: 100px;
+	transform: rotate(-35deg);*/
+}
+
+.hand {
+	background-color: orange;
+	/*width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: -315px;
+	left: 180px;*/
+}
+
+.leg1 {
+	background-color: white;
+	width: 50px;
+	height: 235px;
+	position: relative;
+	top: -145px;
+	display: inline-block;
+}
+.leg2 {
+	background-color: white;
+	width: 50px;
+	height: 235px;
+	position: relative;
+	top: -145px;
+	left: 19px;
+	display: inline-block;
+}
+
+.pos1 {
+	visibility: hidden;
+}
+.pos2 {
+	visibility: hidden;
+}
+.pos3 {
+	visibility: hidden;
+}
+
+.prompt, .monitor {
+	background-color: beige;
+	margin-left: 10px;
+	display: inline-block;	
+}
+/*keyframes*/
+@keyframes pulse {
+  0% {
+    
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+
+
+/*Media*/
+
+/*phone*/
+@media(min-width:320px) {
+	body {
+	background-size:calc(100% - 5px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.halfarm {
+	width: 150px;
+	background-color: orange;
+	height: 50px;
+	border-radius: 45%;
+	position: relative;
+	top: -200px;
+	transform: rotate(45deg);
+}
+
+.fronthalf {
+	width: calc(20% - 4px);
+	background-color: orange;
+	width: 125px;
+	height: 45px;
+	border-radius: 45%;
+	position: relative;
+	top: -235px;
+	left: 100px;
+	transform: rotate(-35deg);
+}
+
+.hand {
+	width: calc(20% - 4px);
+	background-color: orange;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: -315px;
+	left: 180px;
+}
+.pos1 {
+	visibility: visible;
+}
+.pos2 {
+	visibility: hidden;
+}
+.pos3 {
+	visibility: hidden;
+}
+}
+
+@media(min-width:481px) and (max-width:991px) {
+	body {
+	background-size:calc(100% - 0px);
+	background-repeat:repeat;
+	background-size: cover;
+	}
+	.halfarm {
+	background-color: purple;
+	width: 150px;
+	height: 50px;
+	border-radius: 45%;
+	position: relative;
+	top: -200px;
+	transform: rotate(25deg);
+}
+
+.fronthalf {
+	background-color: purple;
+	width: 125px;
+	height: 45px;
+	border-radius: 45%;
+	position: relative;
+	top: -240px;
+	left: 100px;
+	transform: rotate(-20deg);
+}
+
+.hand {
+	background-color: purple;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: -315px;
+	left: 195px;
+}
+.pos1 {
+	visibility: hidden;
+}
+.pos2 {
+	visibility: visible;
+}
+.pos3 {
+	visibility: hidden;
+}
+}
+
+@media (min-width: 992px) {
+	body {
+	background-size:calc(100% - 0px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.halfarm {
+	background-color: gold;
+	width: 150px;
+	height: 50px;
+	border-radius: 45%;
+	position: relative;
+	top: -200px;
+	transform: rotate(0deg);
+}
+
+.fronthalf {
+	background-color: gold;
+	width: 125px;
+	height: 45px;
+	border-radius: 45%;
+	position: relative;
+	top: -247px;
+	left: 100px;
+	transform: rotate(0deg);
+}
+
+.hand {
+	background-color: gold;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: -296px;
+	left: 214px;
+	animation: pulse 5s infinite;
+}
+.pos1 {
+	visibility: hidden;
+}
+.pos2 {
+	visibility: hidden;
+}
+.pos3 {
+	visibility: visible;
+}
+
+
+}
+

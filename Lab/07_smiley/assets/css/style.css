@@ -106,7 +106,7 @@ animations*/
 /*small desktop*/
 @media (min-width: 481px) and (max-width: 991px) {
 	.block {
-		width: calc(10% - 4px);
+		width: calc(15% - 2px);
 		padding-top: calc(10% - 4px);
 	}
 
