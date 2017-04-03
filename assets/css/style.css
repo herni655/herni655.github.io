@@ -35,6 +35,10 @@ a {
 	color: #b16639;
 	text-decoration: none;
 }
+
+a:hover {
+	color: 
+}
 /*display of content*/
 .projects {
 	display: inline-block;
