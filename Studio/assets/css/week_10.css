@@ -17,6 +17,7 @@ section {
 	border-color: #f1f2ed;
 	padding: 20px;
 	background-color: #b4c4ca;
+	color: #b16639;
 }
 ul {
 	border-style: solid;
@@ -37,6 +38,9 @@ h2 {
 	text-align: center;
 	color: #304922;
 	font-family: 'Raleway', sans-serif;
+}
+p {
+	color: #b16639;
 }
 
 a {

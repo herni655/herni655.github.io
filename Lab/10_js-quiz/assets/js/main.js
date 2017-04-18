@@ -86,7 +86,7 @@ console.log(checkerboard);
 }
 	
 
-function triangle(height) {
+function triangle (height) {
 	var pyramid = "#";
 	for (var i = 0; i < height; i++) {
 		[i]
@@ -102,12 +102,12 @@ function triangle(height) {
 
 var checkerboardBtn = document.getElementById("checkerboard");
 checkerboardBtn.addEventListener("click", function(event) { 
-	console.log("checkerboard(width(5), height)(5)")
+	checkerboard(10, 5)
 });
 
 var pyramidBtn = document.getElementById("pyramid")
 pyramidBtn.addEventListener("click", function(event) { 
-	
+	triangle(5)
 });
 
 

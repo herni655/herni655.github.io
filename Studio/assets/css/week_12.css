@@ -1,0 +1,85 @@
+* /*universal everything in display*/{
+	box-sizing: border-box;
+}
+body{
+	background-color: red;
+}
+header {
+	padding: 5% 5% 0% 10%;
+}
+
+.tittle1 {
+	color:white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 400%;
+	font-weight: 100;
+}
+.tittle2 {
+	color:white;
+	padding-left: 15%;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 800%;
+	font-weight: 100;
+}
+
+#names {
+	padding-left: 20%;
+	padding-top: 10%;
+
+}
+a {
+	text-decoration: none;
+	color:white;
+	font-family: avenir;
+}
+#wrapper {
+ -webkit-column-count: 4;
+ -moz-column-count: 4;
+ column-count: 4;
+ padding-left: 20%;
+ padding-top: 20%;
+ padding-right: 20%;
+ padding-bottom: 30%;
+ font-family: avenir;
+ font-size: 100%;
+font-weight: 300;
+}
+
+#wrapper2 {
+ -webkit-column-count: 4;
+ -moz-column-count: 4;
+ column-count: 4;
+ padding-left: 20%;
+ padding-top: 10%;
+ padding-right: 20%;
+ padding-bottom: 30%;
+  font-family: avenir;
+ font-size: 100%;
+font-weight: 300;
+}
+
+#wrapper3 {
+ -webkit-column-count: 4;
+ -moz-column-count: 4;
+ column-count: 4;
+ padding-left: 20%;
+ padding-top: 10%;
+ padding-right: 20%;
+ padding-bottom: 30%;
+  font-family: avenir;
+ font-size: 100%;
+font-weight: 300;
+}
+
+#wrapper4 {
+ -webkit-column-count: 4;
+ -moz-column-count: 4;
+ column-count: 4;
+ padding-left: 20%;
+ padding-top: 10%;
+ padding-right: 20%;
+ padding-bottom: 30%;
+  font-family: avenir;
+ font-size: 100%;
+font-weight: 300;
+}
