@@ -1,0 +1,43 @@
+body {
+	background-color: #2d3258;
+}
+.name {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	background-color: #FFEB3B;
+	width: 100%;
+	text-align: center;
+}
+
+.theme {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	font-size: 80px;
+}
+a {
+
+	text-decoration: none;
+	color: #54bd9f;
+}
+#container {
+	text-align: center;
+}
+#prompt {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 40px;
+	color: #54bd9f;
+}
+footer{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color:#54bd9f;
+}
+img {
+	width: 15%; 
+
+}
+button {
+	font-size: 20px;
+	background-color: #080e28;
+	color: #ffeb3b;
+}
