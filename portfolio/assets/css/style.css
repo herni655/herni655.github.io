@@ -1,0 +1,81 @@
+
+body {
+	background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-opacity: .85;
+	/*background-color:#e3e3e3;*/
+}
+main {
+	margin: auto;
+    background-color: rgba(234, 205, 198, 0.63);
+    position: relative;
+    top: 172px;
+    padding: 3%;
+    width: 50%;
+    background-opacity:.85;
+}
+a {
+	text-decoration: none;
+	color: #c54353;
+}
+a:hover {
+	color:  #e7beb8 ;
+	background-color:#c24546; 
+}
+.name {
+	color:#374c46;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 50px;
+	
+	text-align: center;
+}
+nav {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+}
+.about {
+	color:rgb(128, 136, 121);
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: inline-block;
+}
+.contact {
+	color:rgb(128, 136, 121);
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: inline-block;
+}
+#schema {
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	 margin: auto;
+    width: calc(60% - 40px);
+    color:rgb(128, 136, 121);
+    padding: 10px;
+    text-align: center;
+}
+.painting {
+	margin:auto;
+	display: inline-block;
+}
+
+.sculpture {
+	margin:auto;
+
+}
+.book {
+	margin:auto;
+	display: inline-block;
+}
+.poster {
+	margin:auto;
+	display: inline-block;
+}
+.video {
+	margin:auto;
+	display: inline-block;
+}

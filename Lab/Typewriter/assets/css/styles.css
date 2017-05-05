@@ -1,6 +1,12 @@
+
 body {
 	background-color: #2d3258;
+	top: 0;
+	left: 0;
+	margin: 0; 
+	padding: 0;
 }
+
 .name {
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: bold;

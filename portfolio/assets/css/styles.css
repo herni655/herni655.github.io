@@ -1,152 +1,147 @@
-* universal everything in display{
-	box-sizing: border-box;
+
+section {
+	margin: auto;
+    background-color: rgba(234, 205, 198, 0.63);
+    position: relative;
+    top: 30px;
+    padding: 1%;
+    width: 90%;
 }
 body {
-	background-color: #c5c1c0;
+	background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-opacity: .5;
+	top: 0;
+	left: 0;
+	margin: 0; 
+	padding: 0;
+}
+
+#p-body {
+	background-color:#23262d;
+}
+
+#topp{
+	background-color:rgba(197, 67, 83, 0.68);
+	height: 65px;
+}
+
+#top  {
+	padding-left: 2%;
+	background-color: gray;
+	width: 100%;
+}
+#top a{
+	color:#374c46;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 50px;
+	
+	float: left;
+}
+#top a:hover {
+	color:#374c46;
+}
+#info a {
+	padding-top: 5px;
+	padding-right: 2%;
+	float: right;
+	color: #374c46 ;
+	font-size: 40px;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: inline-block;
+}
+
+#info a:hover {
+	color:rgb(128, 136, 121);
+}
+nav {
+	font-family: 'Archivo Narrow', sans-serif;
+	float: right;
 }
 h1 {
-	color: #0a1612;
+	font-family: 'Archivo Narrow', sans-serif;
 	text-align: center;
-	font-family: 'Archivo Narrow', sans-serif;
-}
-p {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-weight: lighter;
-	padding: 5% 20% 0% 20%;
-}
-ul {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-weight: lighter;
-	text-align: center;
-	letter-spacing: .5px;
-	padding: 5% 20% 0% 20%;
+	color: #374c46;
 }
 
-header {
-	
-	width: 100%;
-    height: 70px;
-    margin: 0;
-    background-color: #0a1612;
-    letter-spacing: .5px;
+main {
+	margin: auto;
+    background-color: rgba(234, 205, 198, 0.93);
+    position: relative;
+    top: 172px;
+    padding: 3%;
+    width: 50%;
+    margin-bottom: 40px;
 }
+/*a .p-name {
+	color:#d3938d;
+}*/
 a {
-	color: #c3c2c0;
 	font-family: 'Archivo Narrow', sans-serif;
 	text-decoration: none;
-}
-
-nav a {
-	font-family: 'Archivo Narrow', sans-serif;
-	vertical-align: bottom;
-	display: inline-block;
-    background: #c5c1c0;
-    color: #0a1612;
-    padding: 5px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-bottom: 4px;
-    transition: background-color 0.5s, padding 0.5s;
-    text-decoration: none;
-    margin-top: 10px;
-}
-nav a:hover {
-	background-color: #f7ce3e;
-}
-.name {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-weight: bold;
-	font-size: 45px;
-	float: left;
-	padding-left: 15px;
-}
-
-
-.button1 {
-	font-family: 'Archivo Narrow', sans-serif;
+	color: #c54353;
 	font-size: 20px;
-	float: right;
-	width: calc(100% - 90%);
 }
-.button2 {
-	font-size: 20px;
+/*a:hover {
+	color:  #e7beb8 ;
+	background-color:#c24546; 
+}
+*/p {
+	/*text-align: center;*/
 	font-family: 'Archivo Narrow', sans-serif;
-	float: right;
-	width: calc(100% - 90%);
+	color: #c54353;
+	font-size: 20px;
 }
-
 .col img, .col iframe /*everytime theres a img tag in a .col add these properties*/{
 	width: 100%;
 	vertical-align: top;
 	display: inline-block;
-}
-
-.col-2of6 {
-	width: calc(33.333% - 20px);
-	display: inline-block;
-}
-
-.col-4of6 {
-	width: calc(33.333% - 20px);
-	display: block;
-}
-.col3of6 {
-	width: calc(66.666% - 20px);
-}
-
-.process {
-	position: relative;
-    margin: 0;
-    left: 15%;
-    right: 0;
-    width: calc(50% - 20px);
-    display: block;
-}
-.process2 {
-	position:relative;
-	width: 100px;
-	padding-left: 30%;
+	font-family: 'Archivo Narrow', sans-serif;
 }
 
 .col:hover {
 	padding: .5%;
-	background-color: #0a1612;
+	background-color:#eacdc6;
 }
 iframe{
 	width: calc(66.666% - 20px);
 	display: inline-block;
 }
 
+.col-2of6 {
+    width: calc(33.333% - 20px);
+    display: inline-block;
+}
+.col3of6 {
+    width: calc(66.666% - 20px);
+}
+.tag {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #c54353;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
 .wholepic {
-	float: right;
+    float: right;
     position: relative;
     margin: 0;
     left: 10%;
     right: 0;
     display: block;
 }
-
-.tag {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 15px;
-	float: left;
-	display: block;
+div.wholepicp {
+    padding-left: 25%;
 }
-
-.layer {
-	width: calc(66.666% - 10px);
-	display: inline-block;
-	padding-left: 30%;
-}
-
-.layer2 {
-	width: calc(66.666% - 10px);
-	display: inline-block;
-	padding-left: 30%;
-	
+div.wholepicp2 {
+    padding-left: 18%;
 }
 div.wholepic1 {
-	float: right;
+    float: right;
     position: relative;
     margin: 0;
     left: 10%;
@@ -154,13 +149,14 @@ div.wholepic1 {
     display: block;
     white-space: nowrap;
     overflow: scroll;
-    overflow-x: scroll;overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding-right: 20%;
-
+    vertical-align: top;
 }
 
 div.wholepic3 {
-	float: right;
+    float: right;
     position: relative;
     margin: 0;
     left: 10%;
@@ -168,21 +164,70 @@ div.wholepic3 {
     display: block;
     white-space: nowrap;
     overflow: scroll;
-    overflow-x: scroll;overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding-right: 20%;
-   
 }
-/*div.scrollmenu {
-    float:left;
-width:500px;
-height:300px;
-overflow:auto;
-}*/
+.process {
+    position: relative;
+    margin: 0;
+    left: 28%;
+    right: 0;
+    width: calc(50% - 20px);
+    display: block;
+}
+
+.process2 {
+    position: relative;
+    width: 100px;
+    padding-left: 30%;
+}
+.process2p {
+    position: relative;
+    width: calc(15% - 85px);
+    padding-left: 30%;
+}
+#seclay {
+    background-color: rgba(226, 198, 187, 0.62);
+}
+
+.para {
+	color:#c54353;
+	font-family: 'Archivo Narrow', sans-serif;
+	padding: 20px 100px 20px 100px;
+	font-size: 20px;
+}
+.parap {
+    color:#c54353;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 20px 250px 20px 250px;
+    font-size: 20px;
+}
+
+.me img{
+	margin: auto;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    left: 25%;
+}
+.process3 {
+    position: relative;
+    margin: 0;
+    left: 30%;
+    right: 0;
+    width: calc(50% - 20px);
+    display: block;
+}
+
+#webpara {
+    margin: 0 auto;
+    width: calc(80% - 40px);
+    color:#c54353;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 2%;
+}
 
 
-/*.col {
-	opacity: .5;
-}
-.col:hover {
-	opacity: 100;
-}*/
