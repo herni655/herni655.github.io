@@ -1,6 +1,16 @@
 #wrapper {
 	width: 100%;
 }
+
+#mainpic {
+	position: absolute;
+	background-color: lightgray;
+	font-family: 'Assistant', sans-serif;
+	color: white;
+    /*left: 90%;
+    top: 415px;*/
+}
+
 header {
 	width: 100%;
 	margin: 0; 
@@ -8,7 +18,7 @@ header {
 	top: 40px;
 }
 #tittle {
-	background-color: #474948;
+	background-color: #40494a;
 	color: white;
 	top: 40px;
 	height: 50px;
@@ -53,12 +63,20 @@ img {
 }
 .image-kids img {
 	position: absolute;
-	opacity: 0.85;
+	opacity: 0.95;
 }
 section {
 	position: relative;
 	padding: 10%;
 	padding-top: 50%;	
+}
+section#post {
+	position: relative;
+    padding-top: 7%;
+    border-style: solid;
+    width: 50%;
+    margin: auto;
+    top: 50px;
 }
 .col-1of6 {
 	padding: 5%;
@@ -66,7 +84,18 @@ section {
     display: inline-block;
     vertical-align: top;
     border-style: solid;
+    height: 500px;
+    margin-bottom: 3px;
    
+}
+.col-1of6 a {
+	background-color: rgba(128, 128, 128, 0.89);
+    padding: 1%;
+    box-shadow: 5px 2px 10px #888888;
+
+}
+.col-1of6 a:hover {
+	padding: 2%;
 }
 
 .col-2of6 {
