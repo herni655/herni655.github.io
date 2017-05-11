@@ -18,8 +18,11 @@
   vertical-align: top;
 }
 
-.fa:hover {
+.social:hover {
     opacity: 0.7;
+}
+.fb-comments {
+  margin: auto;
 }
 
 .animate {
@@ -91,9 +94,16 @@ body background {
 }
 
 #next a{
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
 	float: right;
 	padding: 4% 15% 0% 0%;
 }
+#next a:hover {
+  color: lightgreen;
+
+}
+
 img {
 	width: calc(80% - 50px);
 	height: ;
