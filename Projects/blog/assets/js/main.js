@@ -1,3 +1,14 @@
+setTimeout(function(){
+    document.getElementById('ani-3').className = 'waa';
+}, 1000);
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $('#').fadeIn(500);
+    }, 1000);
+});
+
+
 jQuery(document).ready(function($){
 	var timelines = $('.cd-horizontal-timeline'),
 		eventsMinDistance = 60;
@@ -266,3 +277,5 @@ jQuery(document).ready(function($){
 		return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 });
+
+
