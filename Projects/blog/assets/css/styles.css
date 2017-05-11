@@ -11,14 +11,11 @@
     top: 415px;*/
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+.fb-share-button {
+  vertical-align: top;
+}
+.twitter-share-button {
+  vertical-align: top;
 }
 
 .fa:hover {
@@ -104,6 +101,14 @@ img {
 .image-kids img {
 	position: absolute;
 	opacity: 0.95;
+}
+.link a {
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+    text-align: left;
+    position: relative;
+    display: block;
+    padding-left: 10%;
 }
 
 section#post {

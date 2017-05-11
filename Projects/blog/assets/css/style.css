@@ -314,6 +314,7 @@ Main Components
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
   color: white;
+  font-family: 'Lato', sans-serif;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
@@ -327,6 +328,7 @@ Main Components
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
   }
 }
 
