@@ -202,10 +202,6 @@ top: 0;
 left: 0;
 }
 
-.col-3of6 {
-  width: calc(50% - 20px);
-}
-
 #tittle a {
 	color: black;
 }
