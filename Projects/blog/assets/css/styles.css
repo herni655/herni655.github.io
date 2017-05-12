@@ -2,20 +2,11 @@
 	width: 100%;
 }
 
-#mainpic {
-	position: absolute;
-	background-color: lightgray;
-	font-family: 'Lato', sans-serif;
-	color: white;
-    /*left: 90%;
-    top: 415px;*/
-}
-
 .fb-share-button {
-  vertical-align: top;
+  vertical-align: baseline;
 }
 .twitter-share-button {
-  vertical-align: top;
+  vertical-align: baseline;
 }
 
 .social:hover {
@@ -50,6 +41,10 @@ figcaption {
   font-weight: normal;
   letter-spacing: 0;
 }
+.video {
+padding-top: -20px;
+}
+
 body {
 	top: 0;
 	left: 0;
@@ -94,28 +89,37 @@ body background {
 }
 
 #next a{
+  
   font-family: 'Lato', sans-serif;
   font-weight: normal;
 	float: right;
-	padding: 4% 15% 0% 0%;
+	padding: 4% 15% 5% 0%;
 }
 #next a:hover {
   color: lightgreen;
-
 }
+#previous a{
 
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  float: left;
+  padding: 4% 0% 5% 15%;
+}
+#previous a:hover {
+  color: lightgreen;
+}
 img {
 	width: calc(80% - 50px);
-	height: ;
 }
 #post-text {
   text-align: left;
   text-transform: none;
   width: 80%;
   font-size: 20px;
-  color: black;
+  color: white;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
+
 }
 .image-kids img {
 	position: absolute;
@@ -139,9 +143,19 @@ section#post {
     top: 50px;
 }
 section#about-post {
-	position: relative;
-	margin: auto;
-	padding: 0%;
+	font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: left;
+  text-transform: none;
+}
+section#about-post p {
+  padding: 0% 10% 2% 10%;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 h2{
@@ -154,10 +168,24 @@ em {
   color: black;
 }
 
-p {
-  color:blue;
+
+.video-container {
+  width: calc(80% - 50px);
+  margin: 0 auto; 
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
 }
-.col-1of6 {
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+/*width: calc(80% - 50px);*/
+}
+/*.col-1of6 {
 	padding: 5%;
     width: calc(40% - 20px);
     display: inline-block;
@@ -168,24 +196,23 @@ p {
     border-color: #816665;
     background-color: #e1af78;
    
-}
+}*/
 /*.col-1of6 a {
 	background-color: rgba(128, 128, 128, 0.89);
     padding: 1%;
     box-shadow: 5px 2px 10px #888888;
 
-}
-.col-1of6 a:hover {
-	padding: 2%;
-}
+}*/
 
-.col-2of6 {
-	width: calc(100% - 10px);*/
-}
+
+/*.col-2of6 {
+	width: calc(100% - 10px);
+}*/
 
 #tittle a {
 	color: black;
 }
+
 a {
 	text-decoration: none;
 	color: #ffeb3b;
