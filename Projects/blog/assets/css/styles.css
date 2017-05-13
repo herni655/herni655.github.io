@@ -131,6 +131,15 @@ img {
   font-weight: normal;
 
 }
+#post-text2 {
+  text-align: left;
+  text-transform: none;
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
 .image-kids img {
 	position: absolute;
 	opacity: 0.95;
@@ -165,6 +174,7 @@ section#about-post p {
 }
 
 h1 {
+  color: white;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-align: center;
