@@ -1,7 +1,7 @@
 
 section {
 	margin: auto;
-    background-color: rgba(234, 205, 198, 0.63);
+    background-color:rgba(37, 24, 34, 0.5);
     position: relative;
     top: 30px;
     padding: 1%;
@@ -19,6 +19,7 @@ body {
 	left: 0;
 	margin: 0; 
 	padding: 0;
+    /*background-color:#23262d*/
 }
 
 #p-body {
@@ -37,7 +38,7 @@ body {
 }
 #top a{
 	color:#374c46;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	
 	float: left;
@@ -51,7 +52,7 @@ body {
 	float: right;
 	color: #374c46 ;
 	font-size: 40px;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 }
 
@@ -59,20 +60,20 @@ body {
 	color:rgb(128, 136, 121);
 }
 nav {
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	float: right;
 }
 h1 {
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	color: #374c46;
+	color:#f7f7f7;
 }
 
 main {
 	margin: auto;
-    background-color: rgba(234, 205, 198, 0.93);
+    background-color:rgba(37, 24, 34, 0.5);
     position: relative;
-    top: 172px;
+    top: 100px;
     padding: 3%;
     width: 50%;
     margin-bottom: 40px;
@@ -80,32 +81,34 @@ main {
 /*a .p-name {
 	color:#d3938d;
 }*/
-a {
+/*a {
 	font-family: 'Archivo Narrow', sans-serif;
 	text-decoration: none;
 	color: #c54353;
 	font-size: 20px;
-}
+}*/
 /*a:hover {
 	color:  #e7beb8 ;
 	background-color:#c24546; 
 }
 */p {
 	/*text-align: center;*/
-	font-family: 'Archivo Narrow', sans-serif;
-	color: #c54353;
+	font-family: 'Roboto', sans-serif;
+	color:#f7f7f7;
 	font-size: 20px;
+    /*padding-right: 35%;*/
+   /* background-color:rgba(37, 24, 34, 0.5);*/
 }
 .col img, .col iframe /*everytime theres a img tag in a .col add these properties*/{
 	width: 100%;
 	vertical-align: top;
 	display: inline-block;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .col:hover {
 	padding: .5%;
-	background-color:#eacdc6;
+	background-color: #662334;
 }
 iframe{
 	width: calc(66.666% - 20px);
@@ -120,8 +123,8 @@ iframe{
     width: calc(66.666% - 20px);
 }
 .tag {
-	font-family: 'Archivo Narrow', sans-serif;
-	color: #c54353;
+	font-family: 'Roboto', sans-serif;
+	color:#f7f7f7;
 	padding-left: 20px;
 	font-size: 20px;
 }
@@ -130,12 +133,14 @@ iframe{
     float: right;
     position: relative;
     margin: 0;
-    left: 10%;
+    padding-left: 32%;
     right: 0;
     display: block;
 }
 div.wholepicp {
     padding-left: 25%;
+    /*background-color:rgba(37, 24, 34, 0.5);
+    padding: 5%;*/
 }
 div.wholepicp2 {
     padding-left: 18%;
@@ -168,6 +173,10 @@ div.wholepic3 {
     overflow-y: hidden;
     padding-right: 20%;
 }
+div.wholepicp2 {
+    padding-left: 30%;
+}
+
 .process {
     position: relative;
     margin: 0;
@@ -191,17 +200,22 @@ div.wholepic3 {
     background-color: rgba(226, 198, 187, 0.62);
 }
 
-.para {
-	color:#c54353;
-	font-family: 'Archivo Narrow', sans-serif;
-	padding: 20px 100px 20px 100px;
+div.para {
+    position: relative;
+    display: block;
+	color:#f7f7f7;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 350px 30px 350px;
 	font-size: 20px;
+    height: 25px;
+
 }
 .parap {
-    color:#c54353;
-    font-family: 'Archivo Narrow', sans-serif;
-    padding: 20px 250px 20px 250px;
+    color:#f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 350px 20px 350px;
     font-size: 20px;
+   /* background-color:rgba(37, 24, 34, 0.5);*/
 }
 
 .me img{
@@ -215,7 +229,7 @@ div.wholepic3 {
 .process3 {
     position: relative;
     margin: 0;
-    left: 30%;
+    left: 35%;
     right: 0;
     width: calc(50% - 20px);
     display: block;
@@ -225,9 +239,23 @@ div.wholepic3 {
     margin: 0 auto;
     width: calc(80% - 40px);
     color:#c54353;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 2%;
 }
-
-
+.vp {
+    padding-right: 35%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:#f7f7f7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.break {
+    position: relative;
+    display: block;
+    padding: 5%;
+}
+br {
+    padding: 10%;
+}
